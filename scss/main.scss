@@ -11,7 +11,7 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Questrial", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 
@@ -23,13 +23,15 @@ h3 {
   font-weight: 400;
 
   &.lg-heading {
-    font-size: 6rem;
+    font-size: 8rem;
+    font-weight: 900;
+    text-align: center;
   }
 
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.5);
+    text-align: center;
   }
 }
 
@@ -52,12 +54,41 @@ main {
   padding: 4rem;
   // height: 100%;
   min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20rem;
+
+  .console-container {
+    font-family: "Questrial";
+    font-size: 1.8em;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    color: white;
+    top: 4.5rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .console-underscore {
+    display: inline-block;
+    position: relative;
+    top: -0.14em;
+    left: 10px;
+  }
 
   .icons {
-    margin-top: 1rem;
+    margin-top: 10rem;
+    @include easeOut;
+    z-index: 1;
 
     a {
-      padding: 0.4rem;
+      padding: 2rem;
       @include easeOut;
 
       &:hover {
@@ -69,7 +100,7 @@ main {
   &#home {
     overflow: hidden;
     h1 {
-      margin-top: 20vh;
+      margin-top: 10vh;
     }
   }
 }
@@ -92,6 +123,8 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 4.5rem;
   }
 
   .job-1 {
