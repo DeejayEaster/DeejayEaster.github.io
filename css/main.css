@@ -67,6 +67,7 @@
 }
 .menu-branding .portrait {
   width: 250px;
+  right: 20px;
   height: 250px;
   background: url("../img/portrait.jpg");
   border-radius: 50%;
@@ -85,9 +86,9 @@
 .menu .nav-link {
   display: inline-block;
   position: relative;
-  font-size: 30px;
+  font-size: 2rem;
   text-transform: uppercase;
-  padding: 1rem 0;
+  padding: 1rem 15rem;
   font-weight: 300;
   color: #fff;
   text-decoration: none;
