@@ -69,9 +69,22 @@
   width: 250px;
   right: 20px;
   height: 250px;
-  background: url("../img/portrait.jpg");
-  border-radius: 50%;
+  width: 250px;
+  background: url("../img/logo.png");
+  border-radius: 100%;
   border: solid 3px #7851a9;
+  margin-bottom: 6rem;
+}
+.menu-branding .icons {
+  transition: all 0.5s ease-out;
+  z-index: 1;
+}
+.menu-branding .icons a {
+  padding: 2rem;
+  transition: all 0.5s ease-out;
+}
+.menu-branding .icons a:hover {
+  color: #7851a9;
 }
 .menu .nav-item {
   transform: translate3d(600px, 0, 0);
@@ -86,7 +99,7 @@
 .menu .nav-link {
   display: inline-block;
   position: relative;
-  font-size: 2rem;
+  font-size: 2vw;
   text-transform: uppercase;
   padding: 1rem 15rem;
   font-weight: 300;
@@ -362,6 +375,12 @@ div.menu-branding.show {
     transform: translate3d(0, 0, 0);
   }
 
+  .menu .nav-link {
+    font-size: 6vw;
+    padding: 0;
+    line-height: 8vh;
+  }
+
   .menu-nav {
     height: 75vh;
     transform: translate3d(-100%, 0, 0);
@@ -401,6 +420,12 @@ div.menu-branding.show {
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .menu .nav-link {
+    font-size: 6vw;
+    padding: 0;
+    line-height: 7vh;
   }
 }
 

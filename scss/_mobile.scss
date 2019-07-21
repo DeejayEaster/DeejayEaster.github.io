@@ -39,6 +39,13 @@
       transform: translate3d(0, 0, 0);
     }
   }
+  .menu {
+    .nav-link {
+      font-size: 6vw;
+      padding: 0;
+      line-height: 8vh;
+    }
+  }
 
   .menu-nav {
     height: 75vh;
@@ -89,5 +96,13 @@
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .menu {
+    .nav-link {
+      font-size: 6vw;
+      padding: 0;
+      line-height: 7vh;
+    }
   }
 }
