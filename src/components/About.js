@@ -33,8 +33,8 @@ const About = () => {
             <i className="fas fa-mobile fa-4x"></i>
             <h3>Responsive Design</h3>
             <p>
-              I design all of my designs with mobile, tablet, and desktop
-              platforms in mind.
+              My projects can be designed with mobile, tablet, and desktop
+              platforms in mind, for a fully responsive expeireance.
             </p>
           </div>
         </div>
