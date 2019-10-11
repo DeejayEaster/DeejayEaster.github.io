@@ -60,6 +60,9 @@
 }
 
 @include mediaSm {
+  .projects-app {
+    height: 120vh;
+  }
   .cards-slider-wrapper {
     .card {
       margin-left: 0 !important;
@@ -88,7 +91,7 @@
   }
 
   .about {
-    height: 140vh !important;
+    height: 150vh !important;
 
     .qualities {
       padding: 0 !important;
