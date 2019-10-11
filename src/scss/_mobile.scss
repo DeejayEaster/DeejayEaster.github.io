@@ -60,6 +60,10 @@
 }
 
 @include mediaSm {
+  * {
+    overflow: hidden !important;
+  }
+
   .cards-slider-wrapper {
     .card {
       margin-left: 0 !important;
