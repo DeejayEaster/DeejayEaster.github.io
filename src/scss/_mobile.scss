@@ -61,7 +61,9 @@
 
 @include mediaSm {
   .projects-app {
-    height: 120vh;
+    .projects-title {
+      margin-bottom: 1rem !important;
+    }
   }
   .cards-slider-wrapper {
     .card {
