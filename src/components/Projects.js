@@ -102,7 +102,7 @@ class Projects extends Component {
         </div>
         <div className="btn-container">
           <a href={property.url} target="_blank" className="card-btn">
-            <i class="fas fa-eye"></i> View Code
+            <i class="fas fa-eye"></i> View Site
           </a>
           <a href={property.code} target="_blank" className="card-btn">
             <i className="fab fa-github"></i> View Code
