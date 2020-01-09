@@ -38,6 +38,8 @@ const data = {
       url: "https://rentech.netlify.com/login",
       info:
         "Rentech is a project that was built to create a classifieds marketplace that allows users to loan or sell their unwanted tech items. My role in this project was Front-End architect. It was my job to build out the components, implement the functionality, and style the application. I also handled state management with Redux.",
+      info2: "Test email:    test@test.com",
+      infoPass: "password:   password",
       tech1: "fab fa-react fa-2x",
       tech2: "fab fa-sass fa-2x",
       tech3: "fab fa-node fa-2x"

@@ -7,6 +7,8 @@ const Card = ({ property }) => {
     picture,
     city,
     info,
+    info2,
+    infoPass,
     tech1,
     tech2,
     tech3,
@@ -23,6 +25,14 @@ const Card = ({ property }) => {
       <img src={picture} alt={city} />
       <div className="details">
         <p className="location">{info}</p>
+      </div>
+      <div className="test-email">
+        <p className="test-email-text">
+          {info2}
+          &nbsp; &nbsp; &nbsp;
+          {infoPass}
+        </p>
+        <p className="test-email-text"></p>
       </div>
     </div>
   );
