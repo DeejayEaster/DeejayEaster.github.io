@@ -12,29 +12,30 @@ const About = () => {
             <i className="fas fa-rocket fa-4x"></i>
             <h3>Dynamic Software</h3>
             <p>
-              I build beautiful and dynamic web applications that feel more
-              alive than static websites.
+              I build engaging and dynamic web-applications tailored for the
+              client and their users.
             </p>
           </div>
           <div className="quality">
             <i className="fas fa-meteor fa-4x"></i>
             <h3>Full-Stack</h3>
             <p>
-              Back-end, Front-end, and Design. No matter what your needs, I have
-              you covered.
+              From planning and design, to the implementation of the project, as
+              well as future maintenance. I can support the product's full life
+              cycle.
             </p>
           </div>
           <div className="quality">
             <i className="fas fa-tachometer-alt fa-4x"></i>
             <h3>Fast Loading</h3>
-            <p>Projects are optimized for a fast and fluid user expeireance.</p>
+            <p>Projects are optimized for a fast and fluid user experience.</p>
           </div>
           <div className="quality">
             <i className="fas fa-mobile fa-4x"></i>
             <h3>Responsive Design</h3>
             <p>
               My projects can be designed with mobile, tablet, and desktop
-              platforms in mind, for a fully responsive expeireance.
+              platforms in mind, for a fully responsive experience.
             </p>
           </div>
         </div>
